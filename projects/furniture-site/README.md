@@ -12,3 +12,5 @@ Responsywna strona dla firmy meblarskiej z katalogiem produktów, logowaniem i f
 ## Zrzuty ekranu
 ![Home](../../assets/screenshots/furniture-site-home.png)
 ![Katalog](../../assets/screenshots/furniture-site-catalog.png)
+## Dokumentacja
+ [Prezentacja projektu (PDF)](../../docs/mymebel-prezentacja.pdf)

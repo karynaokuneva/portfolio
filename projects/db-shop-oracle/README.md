@@ -10,3 +10,6 @@ Model bazy danych sklepu odzieżowego: normalizacja, ERD, zapytania SQL.
 
 ## Zrzuty ekranu
 ![ERD](../../assets/screenshots/db-erd.png)
+
+## Dokumentacja
+ [Prezentacja projektu (PDF)](../../docs/baza-danych-prezentacja.pdf)
