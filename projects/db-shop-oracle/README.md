@@ -26,3 +26,8 @@ Baza została zaprojektowana tak, aby umożliwiać zarządzanie katalogiem produ
 ## Dokumentacja
 Szczegółowe informacje o logice bazy danych, normalizacji i przykładowych zapytaniach SQL znajdują się w prezentacji PDF.  
  [Prezentacja projektu (PDF)](../../docs/baza-danych-prezentacja.pdf)
+
+
+## Wnioski
+Projekt pokazał mi, jak ważne jest poprawne projektowanie i normalizacja bazy danych, aby system był skalowalny, spójny i łatwy w utrzymaniu.  
+Dzięki temu nauczyłam się myśleć jak **Database Designer** — patrzeć nie tylko na kod, ale na logikę i strukturę całego systemu.
