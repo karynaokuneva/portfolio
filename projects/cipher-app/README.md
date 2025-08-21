@@ -1,13 +1,24 @@
-# Cipher app (Vigenère, Cezar, Atbash)
-**Stack:** HTML, CSS, JS, PHP · **Rola:** Frontend/Full-Stack
+# Aplikacja webowa do szyfrowania i deszyfrowania tekstu  
+
+**Stack:** HTML, CSS, JavaScript, PHP, XAMPP  
+**Rola:** Full-Stack Developer (projekt studencki)  
 
 ## Opis
-Prosta aplikacja webowa do szyfrowania i odszyfrowywania tekstu trzema algorytmami.
+Projekt został zrealizowany w ramach przedmiotu **Bezpieczeństwo systemów informatycznych**.  
+Celem było stworzenie funkcjonalnej aplikacji webowej umożliwiającej szyfrowanie i deszyfrowywanie danych z wykorzystaniem klasycznych algorytmów kryptograficznych.  
+
+Dodatkowo aplikacja zawiera system logowania z bezpiecznym przechowywaniem haseł oraz panel użytkownika do zarządzania zaszyfrowanymi wiadomościami.  
 
 ## Funkcje
-- Wybór algorytmu (Vigenère/Cezar/Atbash)
-- Walidacja i kopiowanie wyniku
-- (Opcjonalnie) endpointy PHP
+- Implementacja trzech szyfrów klasycznych:
+  - **Szyfr Cezara**  
+  - **Szyfr Vigenère’a**  
+  - **Szyfr Atbash**  
+- Rejestracja i logowanie użytkowników (hasła haszowane przy użyciu `password_hash()`)  
+- Zapisywanie własnych zaszyfrowanych wiadomości w panelu użytkownika  
+- Możliwość pobrania wiadomości jako pliku `.txt`  
+- Podstrona z opisem działania użytych szyfrów  
+
 
 ## Zrzuty ekranu
 ![Demo](../../assets/screenshots/cipher-app-demo.png)
