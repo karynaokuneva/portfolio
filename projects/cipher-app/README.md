@@ -31,3 +31,11 @@ Pełny raport projektu (cele, technologie, działanie szyfrów, wnioski) dostęp
 ![Konto użytkownika](../../assets/screenshots/szyfry-konto-uzytkownika.png)
 ![Rejestracja](../../assets/screenshots/szyfry-rejestracja.png)
 ![Logowanie](../../assets/screenshots/szyfry-logowanie.png)
+
+## Wnioski
+Projekt pozwolił mi zastosować wiedzę z zakresu **kryptografii klasycznej** i bezpieczeństwa aplikacji webowych.  
+Nauczyłam się:  
+- tworzyć formularze i obsługiwać dane użytkowników w PHP,  
+- implementować bezpieczne logowanie z haszowaniem haseł,  
+- zapisywać i odczytywać dane z plików tekstowych,  
+- łączyć frontend (HTML, CSS, JS) z backendem (PHP, XAMPP).  
