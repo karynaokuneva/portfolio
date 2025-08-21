@@ -21,4 +21,10 @@ Dodatkowo aplikacja zawiera system logowania z bezpiecznym przechowywaniem hase�
 
 
 ## Zrzuty ekranu
-![Demo](../../assets/screenshots/cipher-app-demo.png)
+![Strona glówna](../../assets/screenshots/szyfry-glowna.png)
+![Szyfr vigenera](../../assets/screenshots/szyfr-vigenera.png)
+![Szyfr Cezara](../../assets/screenshots/szyfr-cesara.png)
+![Szyfr ATBASH](../../assets/screenshots/szyfr-atbash.png)
+![Konto użytkownika](../../assets/screenshots/szyfry-konto-uzytkownika.png)
+![Rejestracja](../../assets/screenshots/szyfry-rejestracja.png)
+![Logowanie](../../assets/screenshots/szyfry-logowanie.png)
