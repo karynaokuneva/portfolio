@@ -19,6 +19,9 @@ Dodatkowo aplikacja zawiera system logowania z bezpiecznym przechowywaniem hase�
 - Możliwość pobrania wiadomości jako pliku `.txt`  
 - Podstrona z opisem działania użytych szyfrów  
 
+## Dokumentacja
+Pełny raport projektu (cele, technologie, działanie szyfrów, wnioski) dostępny jest w pliku PDF.  
+ [Raport projektu (PDF)](../../docs/szyfry.pdf)
 
 ## Zrzuty ekranu
 ![Strona glówna](../../assets/screenshots/szyfry-glowna.png)
