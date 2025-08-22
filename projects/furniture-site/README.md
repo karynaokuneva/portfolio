@@ -16,6 +16,9 @@ Aplikacja spełnia wymagania typowego sklepu internetowego, umożliwiając użyt
 - Obsługa bazy MySQL (produkty, kategorie, użytkownicy)  
 - Interaktywne menu boczne (JavaScript)  
 
+## Dokumentacja
+ [Prezentacja projektu (PDF)](../../docs/mymebel-prezentacja.pdf)
+
 ## Zrzuty ekranu
 ![Home](../../assets/screenshots/strona-glowna.png)
 ![Katalog](../../assets/screenshots/katalog.png)
@@ -24,8 +27,7 @@ Aplikacja spełnia wymagania typowego sklepu internetowego, umożliwiając użyt
 ![Panel administracyjny](../../assets/screenshots/admin-panel.png)
 ![Baza Danych - tabela products](../../assets/screenshots/db-products.png)
 ![Baza danych - tabela categories](../../assets/screenshots/db-categories.png)
-## Dokumentacja
- [Prezentacja projektu (PDF)](../../docs/mymebel-prezentacja.pdf)
+
 
 
 [def]: ../../assets/screenshots/strona-glowna.png
