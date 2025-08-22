@@ -19,7 +19,7 @@ Chcę rozwijać się jako junior developer, jestem otwarta na różne kierunki k
 ###  [Cipher App](projects/cipher-app/)
 Aplikacja webowa do szyfrowania i deszyfrowania tekstów przy użyciu szyfrów klasycznych (Cezar, Vigenère, Atbash).  
  Implementacja w PHP i JS, logowanie użytkowników, zapis wiadomości, pobieranie jako plik `.txt`.  
-[Dokumentacja PDF](docs/cipher-app-report.pdf)
+[Dokumentacja PDF](docs/szyfry.pdf)
 
 ---
 
@@ -30,17 +30,17 @@ Responsywny katalog mebli z panelem administracyjnym.
 
 ---
 
-###  [PetWorld – motyw WordPress](projects/petshop-wordpress/)
+###  [PetWorld – motyw WordPress](projects/motyw-wordpress/)
 Autorski motyw WordPress stworzony od zera (HTML, CSS, PHP).  
  Integracja z WooCommerce, responsywny layout, widgety, menu.  
 [Zrzuty ekranu](assets/screenshots/)
 
 ---
 
-###  [PetWorld – sklep WordPress](projects/petshop-wordpress-site/)
+###  [PetWorld – sklep WordPress](projects/strona-wordpress/)
 Sklep internetowy z gotowym motywem WordPress.  
  Konfiguracja CMS, WooCommerce, podstrony: blog, kontakt, polityka zwrotów, galeria.  
-
+[Zrzuty ekranu](docs/wordpress-strona.pdf)
 ---
 
 ###  [Baza danych sklepu odzieżowego](projects/db-shop-oracle/)
@@ -53,7 +53,14 @@ Projekt bazy danych w Oracle SQL Developer.
 ###  [System rezerwacji miejsc w kinie](projects/inzynieria-oprogramowania/)
 Projekt zespołowy w ramach zajęć *Inżynieria oprogramowania*.  
  Analiza wymagań, przypadki użycia, diagramy UML, projekt systemu rezerwacji.  
-[Dokumentacja PDF](docs/cinema-reservation-system.pdf)
+[Dokumentacja PDF](docs/Project%20inrzyneria%20oprogramowania.pdf)
+
+---
+
+###  [ UI/UX ](/portfolio/ui-ux/)
+Oprócz programowania zajmowałam się także **projektowaniem interfejsów użytkownika**.  
+Moje prace koncentrują się na prostych i czytelnych makietach stron internetowych oraz koncepcjach wizualnych.
+
 
 ---
 
