@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>MyMebel</title>
+
+  <!-- Load fonts and CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<!-- Button that toggles the sidebar -->
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+<!-- Sidebar that slides in from the left -->
+<div id="sidebar">
+  
+  <a href="index.html">Strona Główna</a>
+  <a href="catalog.php">Katalog</a>
+  <a href="about.html">O nas</a>
+  <a href="contact.html">Kontakt</a>
+</div>
+
+
+
+  <!-- Top navigation bar with logo and menu -->
+  <header class="top-header">
+    <div class="header-content">
+
+      <!-- Website logo  -->
+      <div class="logo">
+        <h1>MyMebel</h1>
+        <span class="subtitle">Meble na wymiar</span>
+      </div>
+
+      <!-- Navigation links -->
+      <nav class="main-nav">
+        <a href="index.html">Strona Główna</a>
+        <a href="catalog.php">Catalog</a>
+        <a href="about.html">O nas</a>
+        <a href="#uslugi">Usługi</a>
+        <a href="contact.html">Kontakt</a>
+      </nav>
+
+      <!-- Contact info and social media -->
+      <div class="contact-social">
+        <span class="phone">📞 +48 123 456 789</span>
+        <a href="#"><img src="images/facebook.svg" alt="Facebook" class="icon"></a>
+        <a href="#"><img src="images/instagram.svg" alt="Instagram" class="icon"></a>
+        <a href="login.php" class="profile-link">
+          <img src="images/login.png" alt="Mój profil" class="icon">
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero section with welcome message and button -->
+  <section class="hero-overlay-section">
+    <div class="hero-dark-box">
+      <h1><span>Meble na wymiar</span><br>do Twojego domu</h1>
+      <p>
+        Marzysz o nowoczesnej kuchni, eleganckiej sypialni czy praktycznym biurze?
+        Nasza rodzinna pracownia wykona dla Ciebie meble dopasowane do Twoich potrzeb, stylu i przestrzeni.
+      </p>
+      <a href="#kontakt" class="hero-btn">Zamów darmową wycenę</a>
+    </div>
+  </section>
+
+  <!-- Section with short description about the brand -->
+  <section class="about-container">
+    <h2>O nas</h2>
+    <p>
+      Jesteśmy rodzinną pracownią meblarską z Odessy. Tworzymy meble z
+      pasją, sercem i ogromnym szacunkiem do drewna.
+      Każdy nasz projekt to połączenie rzemiosła, tradycji i miłości do detalu.
+    </p>
+    <p>
+      Meble, które powstają w naszej pracowni, są robione na zamówienie — dla osób, które cenią sobie ciepło domowego wnętrza, trwałość oraz wyjątkowy klimat.
+    </p>
+  </section>
+
+  <!-- Footer section with author note -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 MyMebel | Designed with love by Karina</p>
+    </div>
+  </footer>
+
+
+
+  <!-- JS file (optional functionality) -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>

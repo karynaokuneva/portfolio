@@ -1,1 +1,4 @@
 projects/cipher-app/php/config.local.php
+projects/furniture-site/php/config.local.php
+*.sql
+*.sqlite

@@ -1,0 +1,87 @@
+<!-- This is the main contact page for the website -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>MyMebel</title>
+
+  <!-- Load font and external stylesheet -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top navigation bar with logo and links -->
+  <header class="top-header">
+    <div class="header-content">
+
+      <!-- Website logo (you can replace it with image if needed) -->
+      <div class="logo">
+        <h1>MyMebel</h1>
+        <span class="subtitle">Meble na wymiar</span>
+      </div>
+
+      <!-- Main navigation menu -->
+      <nav class="main-nav">
+        <a href="index.html">Strona Glówna</a>
+        <a href="catalog.php">Catalog</a>
+        <a href="about.html">O nas</a>
+        <a href="#uslugi">Usługi</a>
+        <a href="contact.html">Kontakt</a>
+      </nav>
+
+      <!-- Contact info and social media icons -->
+      <div class="contact-social">
+        <span class="phone">📞 +48 123 456 789</span>
+        <a href="#"><img src="images/facebook.svg" alt="Facebook" class="icon"></a>
+        <a href="#"><img src="images/instagram.svg" alt="Instagram" class="icon"></a>
+        <a href="login.php" class="profile-link">
+          <img src="images/login.png" alt="Mój profil" class="icon">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact section with form and details -->
+  <section class="contact-section">
+    <div class="contact-wrapper">
+
+      <!-- Contact form where user can send message -->
+      <div class="contact-form-box">
+        <h2>Skontaktuj się z nami</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Imię i nazwisko" required>
+          <input type="email" placeholder="Adres e-mail" required>
+          <textarea rows="5" placeholder="Wiadomość" required></textarea>
+          <button type="submit">Wyślij wiadomość</button>
+        </form>
+      </div>
+
+      <!-- Company contact details and social media -->
+      <div class="contact-details">
+        <p><strong>📞 Telefon:</strong> +48 123 456 789</p>
+        <p><strong>📧 E-mail:</strong> kontakt@mymebel.pl</p>
+        <p><strong>📍 Adres:</strong> ul. Meblowa 7, Odessa</p>
+
+        <!-- Social icons repeated here -->
+        <div class="social-icons">
+          <a href="#"><img src="images/facebook.svg" alt="Facebook" class="icon"></a>
+          <a href="#"><img src="images/instagram.svg" alt="Instagram" class="icon"></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- JavaScript file for interaction -->
+  <script src="js/script.js"></script>
+
+  <!-- Footer with simple text -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 MyMebel | Designed with love by Karina</p>
+    </div>
+  </footer>
+
+</body>
+</html>
