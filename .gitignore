@@ -2,3 +2,8 @@ projects/cipher-app/php/config.local.php
 projects/furniture-site/php/config.local.php
 *.sql
 *.sqlite
+wp-admin/
+wp-includes/
+wp-content/
+!projects/motyw-wordpress/**
+

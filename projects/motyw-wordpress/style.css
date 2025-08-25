@@ -1,0 +1,428 @@
+/*
+Theme Name: KarynaMotyw
+Theme URI: http://localhost/karynamotyw/
+Author: Karyna Chernii
+Author URI: http://localhost/
+Description: Mój pierwszy własny motyw WordPress inspirowany moim sklepem
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: karynamotyw
+*/
+/* Podstawowe style motywu */
+
+
+
+
+:root {
+  /* Zmiennie kolorów motywu */
+  --kolor-glowny: #D1F0DD;         /* Główny różowy */
+  --kolor-tla: #D1F0DD;            /* Jasne tło strony */
+  --kolor-tekst: #2E160F;          /* Podstawowy kolor tekstu */
+  --kolor-headera: #194D2E;        /* Tło nagłówka */
+  --kolor-stopki: #2E8A50;         /* Tło stopki */
+  --kolor-stopki-tekst: #B3E6B8;   /* Tekst w stopce */
+  --btn-tlo:#194D2E;               /* Tło przycisku */
+  --btn-tekst: #B3E6B8 ;           /* Kolor tekstu przycisku */
+  --btn-hover-tlo: #2E8A50;        /* Kolor tła po najechaniu */
+  --btn-hover-tekst: #D1F0DD;      /* Kolor tekstu po najechaniu */
+}
+
+
+
+
+/* Styl ogólny dla przycisków */
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--btn-tlo);
+  color: var(--btn-tekst);
+  border:rgba(0, 0, 0, 0.05);
+  border-style:inherit;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--btn-hover-tlo);
+  color: var(--btn-hover-tekst);
+}
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--kolor-tla);
+  color: var(--kolor-tekst);
+  margin: 0;
+  padding: 0;
+}
+
+/* Nagłówek */
+header {
+  background-color: var(--kolor-headera);
+  padding: 10px;
+  text-align: center;
+}
+
+
+header h1 {
+  margin: 0;
+  color: var(--kolor-glowny);
+}
+
+header p {
+  margin: 5px 0 0 0;
+}
+
+/* Stopka */
+footer {
+  background-color: var(--kolor-stopki);
+  color: var(--kolor-stopki-tekst);
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+h1 {
+  color: var(--kolor-tekst);
+  text-align: center;
+  margin-top: 50px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+/* Styl dla menu głównego */
+
+/* Menu główne */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+  background-color: var(--kolor-stopki);
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--kolor-glowny);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  color: var(--kolor-headera);
+}
+
+
+
+
+
+
+/* Sekcja kart */
+
+.sekcja-karty {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.sekcja-karty h2 {
+  color: var(--kolor-tekst);
+  margin-bottom: 30px;
+}
+
+.kontener-kart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.karta {
+  background-color: #B3E6B8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.karta:hover {
+  transform: translateY(-5px);
+}
+
+.karta img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.karta h3 {
+  margin-top: 15px;
+  color: var(--kolor-tekst);
+}
+
+.karta p {
+  font-size: 14px;
+  margin: 10px 0 15px;
+}
+
+
+
+
+/* Szablon stron statycznych */
+
+.szablon-strony {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.strona h1 {
+  color: var(--kolor-glowny);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tresc-strony {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+
+
+
+/* Pojedynczy wpis (single.php) */
+
+.pojedynczy-wpis {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wpis h1 {
+  color: var(--kolor-glowny);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.obrazek-wpisu {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.obrazek-wpisu img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.tresc-wpisu {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+
+
+/* Sticky footer */
+
+body {
+  min-height: 100vh; /* Minimum height = 100% wysokości okna */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* Główna treść zajmuje całe dostępne miejsce */
+}
+
+footer {
+  margin-top: auto;
+}
+
+
+
+/* Strona błędu 404 */
+
+.blad-404 {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.blad-404 h1 {
+  font-size: 32px;
+  color: var(--kolor-glowny);
+  margin-bottom: 20px;
+}
+
+.blad-404 p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+
+
+
+/* Formularz wyszukiwania */
+
+.form-szukaj {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px auto;
+  max-width: 500px;
+}
+
+.form-szukaj input[type="search"] {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+/* Układ strony z paskiem bocznym */
+
+.uklad-strony {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ustawia treść po lewej, a sidebar po prawej */
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+/* Główna treść */
+.glowna-tresc {
+  flex: 0 1 68%;
+  min-width: 300px;
+}
+
+/* Pasek boczny */
+.sidebar {
+  flex: 0 1 28%;
+  min-width: 250px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+  font-size: 15px;
+  color: var(--kolor-tekst);
+}
+
+/* Tytuły widgetów */
+.sidebar .widget-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--kolor-glowny);
+  font-size: 18px;
+  border-bottom: 2px solid var(--kolor-glowny);
+  padding-bottom: 5px;
+}
+
+/* Pojedynczy widget */
+.widget {
+  margin-bottom: 25px;
+}
+
+
+
+
+.intro {
+  text-align: center;
+  padding: 30px 20px 10px;
+}
+
+
+
+
+/* Stylizacja przycisków WooCommerce tak, jak .btn */
+/*
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+  display: inline-block;
+  background-color: var(--btn-tlo);
+  color: var(--btn-tekst);
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover {
+  background-color: var(--btn-hover-tlo);
+  color: var(--btn-hover-tekst);
+}
+
+*/
+
+
+.footer-nav {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
